@@ -35,13 +35,11 @@ main = do
   putStr "Was this fun? [y/n]: "
   input <- getLine
   -- head (first char of string)
-  let fun = case head input of
-        'y' -> True
-        _ -> False
+  let fun = head input == 'y'
 
   -- not (invert boolean)
   if not fun
     then
-      putStrLn "cries :("
+      putStrLn "Cries in haskell :("
     else
       putStrLn "Ayy lets go"
