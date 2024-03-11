@@ -4,8 +4,14 @@ Three programs written in Haskell demonstrating data manipulation, data structur
 
 ## How to run
 
+```bash
+runghc program1.hs
+runghc program2.hs
+runghc program3.hs
 ```
-$ runghc program1.hs
-$ runghc program2.hs
-$ runghc program3.hs
+
+## Packaging
+
+```bash
+zip Group2-Programs *.hs
 ```
