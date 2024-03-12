@@ -1,0 +1,24 @@
+cabal-version: 2.4
+name:          three-programs
+description:   Three programs written in Haskell demonstrating data manipulation, data structures, and concurrency, as a prelude to our term project
+synopsis:      Three programs written in Haskell demonstrating data manipulation, data structures, and concurrency
+license:       MIT
+version:       0.1.0.0
+
+executable program1
+    build-depends:    base ^>=4.16.4.0
+    default-language: Haskell2010
+    main-is:          program1.hs
+
+executable program2
+    build-depends:    base ^>=4.16.4.0
+    default-language: Haskell2010
+    main-is:          program2.hs
+
+executable program3
+    build-depends:
+        base ^>=4.16.4.0,
+        parallel ^>=3.2.2.0
+
+    default-language: Haskell2010
+    main-is:          program3.hs
