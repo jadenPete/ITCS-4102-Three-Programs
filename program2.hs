@@ -4,11 +4,11 @@
 --
 -- 2024-03-14
 --
--- Neil Svedberg
 -- Jaden Smith
+-- Jean Toribio
 -- Luke Simone
+-- Neil Svedberg
 -- Sophia Zhu
--- ... 1 more
 --
 -- This program takes an image as it's input and computes the edges of the image.
 
